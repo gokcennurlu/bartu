@@ -18,8 +18,8 @@ def preBuild(site):
         parent_folder_name = os.path.basename(os.path.dirname(path))
         if parent_folder_name != 'thumbs':
             fname = os.path.basename(path)
-            img_path = "/static/images/gallery/%s" % fname
-            thumb_path = "/static/images/gallery/thumbs/%s" % fname
+            img_path = "static/images/gallery/%s" % fname
+            thumb_path = "static/images/gallery/thumbs/%s" % fname
             GALLERY_IMAGES.append((img_path, thumb_path))
     print(GALLERY_IMAGES)
 
