@@ -1,0 +1,41 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+    height: 99vh;
+}
+
+* {
+    font-family: 'Average', serif;
+    color: #5a5a5a !important;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+div.left-menu{
+    width: 200px;
+    height: 100vh;
+    float: left;
+}
+
+div.right-content{
+    width:900px;
+    padding-top: 100px;
+    padding-left: 40px;
+    float: left;
+}
+
+div.thumb{
+    float:left;
+    height: 160px;
+    width: 200px;
+    margin: 1px;
+    background-size: cover;
+}
+

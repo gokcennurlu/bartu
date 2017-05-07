@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block body %}
+  {% for image_row in images %}
+    {% for image_full, thumb in image_row %}
+    <a href="{{image_full}}" data-lity>
+      <div class="thumb" style="background-image: url('{{thumb}}')">
+      </div>
+    </a>
+    {% endfor %}
+  {% endfor %}
+{% endblock %}
